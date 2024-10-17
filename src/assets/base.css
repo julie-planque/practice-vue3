@@ -1,0 +1,62 @@
+
+/* General styles for dark mode */
+body {
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text color */
+  font-family: sans-serif;
+}
+
+/* Links */
+a {
+  color: #00a8ff; /* Light blue link color */
+}
+
+a:hover {
+  color: #007bff; /* Darker blue on hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White header text */
+}
+
+/* Buttons */
+button {
+  background-color: #212121; /* Dark button background */
+  color: #e0e0e0; /* Light button text */
+  border: 1px solid #424242; /* Darker border */
+}
+
+button:hover {
+  background-color: #303030; /* Slightly lighter background on hover */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background-color: #1e1e1e; /* Dark input background */
+  color: #e0e0e0; /* Light input text */
+  border: 1px solid #424242; /* Darker border */
+}
+
+/* Cards */
+.card {
+  background-color: #212121; /* Dark card background */
+  border: 1px solid #424242; /* Darker card border */
+}
+
+/* Other elements */
+table {
+  border-color: #424242; /* Dark table borders */
+}
+
+/* Optional: Add more specific styles for your components */
+.movie-item {
+  background-color: #212121; /* Dark background for movie items */
+}
+
+.navbar {
+  background-color: #181818; /* Darker background for the navbar */
+}
