@@ -1,62 +1,98 @@
 
-/* General styles for dark mode */
-body {
-  background-color: #121212; /* Dark background */
-  color: #e0e0e0; /* Light text color */
-  font-family: sans-serif;
-}
-
-/* Links */
 a {
-  color: #00a8ff; /* Light blue link color */
+  color: #00a8ff;
+
 }
 
 a:hover {
-  color: #007bff; /* Darker blue on hover */
+  color: #007bff;
+
 }
 
-/* Headers */
-h1, h2, h3, h4, h5, h6 {
-  color: #ffffff; /* White header text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff;
+
 }
 
-/* Buttons */
 button {
-  background-color: #212121; /* Dark button background */
-  color: #e0e0e0; /* Light button text */
-  border: 1px solid #424242; /* Darker border */
+  background-color: #212121;
+  color: #e0e0e0;
+  border: 1px solid #424242;
+
 }
 
 button:hover {
-  background-color: #303030; /* Slightly lighter background on hover */
+  background-color: #303030;
+
 }
 
-/* Input fields */
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-  background-color: #1e1e1e; /* Dark input background */
-  color: #e0e0e0; /* Light input text */
-  border: 1px solid #424242; /* Darker border */
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #424242;
+
 }
 
-/* Cards */
+
 .card {
-  background-color: #212121; /* Dark card background */
-  border: 1px solid #424242; /* Darker card border */
+  background-color: #212121;
+  border: 1px solid #424242;
 }
 
-/* Other elements */
+
 table {
-  border-color: #424242; /* Dark table borders */
+  border-color: #424242;
+
 }
 
-/* Optional: Add more specific styles for your components */
+
 .movie-item {
-  background-color: #212121; /* Dark background for movie items */
+  background-color: #212121;
+
 }
 
 .navbar {
-  background-color: #181818; /* Darker background for the navbar */
+  background-color: #181818;
+
+  a {
+    color: #ffffff;
+  }
+}
+
+body {
+  background-color: #181818;
+  color: #e0e0e0;
+}
+
+
+.page-header {
+  background-color: #282828;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header h1 {
+  color: #D2AE12;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.page-header a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+.page-header a:hover {
+  color: #D2AE12;
 }

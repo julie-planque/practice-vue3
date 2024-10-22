@@ -1,16 +1,15 @@
 <template>
   <div>
-    <h1>Liste des films populaires</h1>
-      <div class="row">
-        <ul v-if="movies.length > 0">
-          <li class="col-md-4" v-for="movie in movies" :key="movie.id">
-            <MovieItem :movie="movie" />
-          </li>
-        </ul>
-        <p v-else-if="isLoading">Chargement des films...</p>
-        <p v-else>Aucun film trouvé.</p>
-      </div>
+    <div class="row">
+      <ul v-if="movies.length > 0">
+        <li class="col-md-4" v-for="movie in movies" :key="movie.id">
+          <MovieItem :movie="movie" />
+        </li>
+      </ul>
+      <p v-else-if="isLoading">Chargement des films...</p>
+      <p v-else>Aucun film trouvé.</p>
     </div>
+  </div>
 </template>
 
 
@@ -49,6 +48,18 @@ export default {
 <style scoped>
 ul {
   list-style: none;
-  display: ruby;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+
+  li {
+    width: 300px;
+    margin: 8px;
+  }
+}
+
+.movie-poster {
+  width: 300px;
 }
 </style>

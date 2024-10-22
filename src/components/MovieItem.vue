@@ -1,7 +1,6 @@
 <template>
       <div class="movie-item">
         <img :src="'https://image.tmdb.org/t/p/w500' + movie.poster_path" :alt="movie.title" class="movie-poster">
-        <!-- <h2 class="movie-title">{{ movie.title }}</h2> -->
   </div>
 </template>
 <script>
